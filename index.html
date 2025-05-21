@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mridul's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">MT</span>
+            </div>
+            <button class="nav-hamburger" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-menu">
+                <button class="nav-close" aria-label="Close menu">&times;</button>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-social">
+                    <a href="https://github.com/mridultripathi" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/mridultripathi" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="nav-overlay"></div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text-content">
+                    <h1>Hey, I'm Mridul! <span class="wave-hand">👋</span></h1>
+                    <p class="hero-text">Creating products. Learning every day. Having fun along the way.</p>
+                    <a href="#contact" class="connect-button">
+                        <i class="fas fa-envelope"></i> Let's Connect
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <!-- Add your image here -->
+                    <img src="./Images/MainImage.jpeg" alt="Mridul Thapliyal">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-spaced">
+      <div class="container about-hero">
+        <div class="about-hero-left">
+          <div class="about-hero-image">
+            <img src="./Images/About-Image.png" alt="Happy family" />
+          </div>
+        </div>
+        <div class="about-hero-right">
+          <div class="about-hero-card">
+            <h2 style="text-align: center;">A little bit about me...</h2>
+            <p>I'm someone who loves building, exploring, and figuring things out — whether it's creating something new from scratch, finding simpler ways to solve everyday problems, or chasing down late-night ideas just for the thrill of it.</p>
+            <div class="about-hero-features" style="justify-content: center; text-align: center;">
+              <div class="about-hero-feature">
+                <div class="about-hero-feature-icon" style="background:#f1f5ff;color:#2563eb;border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;font-size:1.7rem;margin-bottom:1rem;"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4z"></path><path d="M21 21v-2c0-2.21-3.58-4-8-4s-8 1.79-8 4v2"></path></svg></div>
+                <div style="text-align: center;">
+                  <h3 style="text-align: center;">My Approach</h3>
+                  <p style="text-align: center;">Simple: Stay curious. Start small. Build fast. Learn faster.</p>
+                </div>
+              </div>
+              <div class="about-hero-feature">
+                <div class="about-hero-feature-icon" style="background:#f1f5ff;color:#2563eb;border-radius:50%;width:48px;height:48px;display:flex;align-items:center;justify-content:center;font-size:1.7rem;margin-bottom:1rem;"><svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="4"></circle><path d="M5.5 21h13a2 2 0 0 0 2-2v-1a7 7 0 0 0-14 0v1a2 2 0 0 0 2 2z"></path></svg></div>
+                <div style="text-align: center;">
+                  <h3 style="text-align: center;">Besides Work</h3>
+                  <p style="text-align: center;">Find me out on the volleyball court, getting competitive over cricket matches,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section section-spaced">
+      <div class="container projects-container">
+        <aside class="projects-sidebar">
+          <h2 class="projects-heading">From the Archives</h2>
+          <p class="projects-subheading">This is just the surface — there's more under the hood. Let's talk.</p>
+        </aside>
+        <div class="projects-list">
+          <div class="project-card-v2">
+            <img src="./Images/MIDAS.png" alt="Project 1" class="project-img-v2" />
+            <h3 class="project-title-v2">MIDAS</h3>
+            <p class="project-desc-v2">Built a real-time data dashboard by creating custom APIs using Flask and integrating them with the ELK Stack (Elasticsearch, Logstash, Kibana). MIDAS enables live data tracking and visualization, ideal for monitoring system metrics and analytics dashboards.</p>
+          </div>
+          <div class="project-card-v2">
+            <img src="./Images/TripPlanner.png" alt="Project 2" class="project-img-v2" />
+            <h3 class="project-title-v2">Smart Trip Planner</h3>
+            <p class="project-desc-v2">Developed a website that creates custom travel itineraries based on user inputs like destination, trip duration, and interests. The tool curates day-wise plans with activity suggestions, making travel planning simple and quick.</p>
+          </div>
+          <div class="project-card-v2">
+            <img src="./Images/Vidyarthi.png" alt="Project 3" class="project-img-v2" />
+            <h3 class="project-title-v2">Vidyarthi</h3>
+            <p class="project-desc-v2">Created a platform where students can explore college profiles and get real-time eligibility results based on their scores and preferences. The tool uses machine learning to simplify the college selection process for students.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-spaced skills-section">
+      <div class="container skills-bento">
+        <div class="skills-left">
+          <span class="skills-label">MY SKILLS</span>
+          <h2 class="skills-title">What I Bring to the Table</h2>
+          <div class="skills-desc-card">
+            <p>A blend of product intuition, startup speed, and user-first thinking — sharpened by doing, not just knowing.</p>
+          </div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Product Strategy</h3>
+            <p>Roadmapping, Go-to-Market Strategy, A/B Testing, Cross-functional Collaboration, Growth Funnels.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-pencil-ruler"></i></div>
+            <h3>Product Design</h3>
+            <p>User Flows, Wireframes, Design Thinking, UX Writing, Rapid Prototyping.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-search"></i></div>
+            <h3>Market & User Research</h3>
+            <p>Competitor Analysis, User Interviews, Survey Design, Experimentation Frameworks.</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Tech & Analytics</h3>
+            <p>Python, SQL, REST APIs, Data Analysis, ELK Stack.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-spaced">
+        <div class="container">
+            <h2>Let's Connect!</h2>
+            <div class="contact-content">
+                <p>If you're into building cool stuff, swapping ideas, or just having a chat about tech, sports, or life — drop me a message!</p>
+                <p class="contact-note">(Coffee chats and cricket matches are always welcome ☕🏏)</p>
+                <a href="mailto:your.email@example.com" class="connect-button">
+                    <i class="fas fa-paper-plane"></i> Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/mridultripathi" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/mridultripathi" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2024 Mridul. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
